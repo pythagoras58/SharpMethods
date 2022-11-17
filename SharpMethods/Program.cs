@@ -25,4 +25,9 @@ namespace SharpMethods
             return a - b;
         }
     }
+
+    class Card
+    {
+
+    }
 }
