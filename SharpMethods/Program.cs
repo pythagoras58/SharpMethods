@@ -12,6 +12,12 @@ namespace SharpMethods
 
             int res = getSub(secondVal, firstVal);
             Console.WriteLine($"DIVISION --> {res}");
+
+            Card card = new Card();
+            card.face = "My Face";
+            card.suit = "Blue";
+
+            Console.WriteLine(card.face.ToString());
         }
 
         static int AddThem(int a, int b)
@@ -28,6 +34,7 @@ namespace SharpMethods
 
     class Card
     {
-
+        public string face;
+        public string suit;
     }
 }
